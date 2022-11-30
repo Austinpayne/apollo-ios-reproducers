@@ -1,0 +1,29 @@
+{
+  "schemaName" : "CollidingTypes",
+  "input" : {
+    "operationSearchPaths" : [
+      "Schema/*.graphql"
+    ],
+    "schemaSearchPaths" : [
+      "Schema/*.graphqls"
+    ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "Sources/CollidingTypes",
+      "moduleType" : {
+        "embeddedInTarget" : {
+          "name" : "CollidingTypes"
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {
+      }
+    }
+  }
+}

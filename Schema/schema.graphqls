@@ -1,0 +1,11 @@
+type Property {
+  unit: UnitObject
+}
+
+enum Unit {
+    Meters
+}
+
+type UnitObject {
+  name: Unit!
+}

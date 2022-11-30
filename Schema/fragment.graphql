@@ -1,0 +1,6 @@
+fragment PropertyFields on Property {
+    __typename,
+    unit {
+        name
+    },
+}
